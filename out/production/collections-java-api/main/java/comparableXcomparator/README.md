@@ -26,7 +26,7 @@
 - O método `sort()` em conjunto com `Collections.reverseOrder()` permite ordenar em ordem descendente.
 
 ```java
-package main.java.comparableXcomparator;
+package main.java.main.java.comparableXcomparator;
 
 import java.util.Comparator;
 

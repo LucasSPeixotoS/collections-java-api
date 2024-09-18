@@ -1,4 +1,7 @@
-package comparableXcomparator;
+import main.java.comparableXcomparator.CompararAno;
+import main.java.comparableXcomparator.CompararAnoAutorTitulo;
+import main.java.comparableXcomparator.CompararAutor;
+import main.java.comparableXcomparator.Livro;
 
 import java.util.ArrayList;
 import java.util.Collections;

@@ -1,4 +1,4 @@
-package comparableXcomparator;
+package main.java.comparableXcomparator;
 
 public class Livro implements Comparable<Livro> {
     private String titulo;

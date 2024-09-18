@@ -26,7 +26,7 @@
 - O método `sort()` em conjunto com `Collections.reverseOrder()` permite ordenar em ordem descendente.
 
 ```java
-package main.java.comparableXcomparator;
+package main.java.main.java.comparableXcomparator;
 
 import java.util.Comparator;
 
@@ -61,7 +61,7 @@ class Livro implements Comparable<Livro> {
 }
 
 // Classe para comparar Livro por autor
-class CompararAutor implements Comparator<Livro> {
+public class CompararAutor implements Comparator<Livro> {
     @Override
     public int compare(Livro livro1, Livro livro2) {
         return livro1.getAutor().compareTo(livro2.getAutor());
@@ -69,7 +69,7 @@ class CompararAutor implements Comparator<Livro> {
 }
 
 // Classe para comparar Livro por ano
-class CompararAno implements Comparator<Livro> {
+public class CompararAno implements Comparator<Livro> {
     @Override
     public int compare(Livro livro1, Livro livro2) {
         if (livro1.getAno() < livro2.getAno())
@@ -81,7 +81,7 @@ class CompararAno implements Comparator<Livro> {
     }
 }
 
-class CompararAnoAutorTitulo implements Comparator<Livro> {
+public class CompararAnoAutorTitulo implements Comparator<Livro> {
     @Override
     public int compare(Livro livro1, Livro livro2) {
         int ano = Integer.compare(livro1.getAno(), livro2.getAno());

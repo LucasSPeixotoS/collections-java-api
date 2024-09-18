@@ -1,4 +1,4 @@
-package comparableXcomparator;
+package main.java.comparableXcomparator;
 
 import java.util.Comparator;
 
